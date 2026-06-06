@@ -1,3 +1,4 @@
+
 # Smart Sign
 
 Smart Sign is a desktop application that translates sign language videos into text. Upload a recording or use your webcam, and the app extracts body pose, runs a neural translation model, and shows the predicted sentence on screen.
@@ -123,3 +124,7 @@ This project is provided for educational and personal use. See repository licens
 ## Author
 
 Built as **Smart Sign** — an original sign language translation application.
+=======
+# Smart-Sign
+Smart Sign is an AI-based American Sign Language (ASL) to text translation system that recognizes hand gestures using computer vision and deep learning models. It provides real-time conversion of sign language into readable text, helping bridge communication between deaf or hard-of-hearing individuals and others. (FYP project)
+>>>>>>> 646457f40b3d6b6af2eeea61742e1729de90c340
