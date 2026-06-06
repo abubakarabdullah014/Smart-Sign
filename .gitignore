@@ -1,0 +1,91 @@
+# Smart Sign — Git ignore rules
+
+# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+.env
+smart_sign_env/
+unisign_env/
+
+# Build, packaging, and compiled binaries
+build/
+dist/
+main.spec
+smart_sign.build/
+smart_sign.dist/
+main.build/
+main.dist/
+nuitka-crash-report.xml
+*.build/
+*.dist/
+*.exe
+*.dll
+*.pyd
+VC_redist.x64.exe
+generated-*.ico
+ffmpeg.exe
+ffplay.exe
+ffprobe.exe
+c10.dll
+libiomp5md.dll
+libiompstubs5md.dll
+shm.dll
+torch.dll
+torch_cpu.dll
+torch_global_deps.dll
+torch_python.dll
+uv.dll
+
+# Model weights and checkpoints
+checkpoints/
+*.pth
+*.h5
+*.ckpt
+*.weights
+
+# Datasets, uploads, and runtime data
+data/
+dataset/
+uploads/
+*.log
+feedback.json
+users.json
+app_errors.log
+
+# Third-party source copies (install via pip instead)
+modules/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS-specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter and testing artifacts
+.ipynb_checkpoints/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Local secrets
+*.pem
+*.key
+secrets.json
