@@ -117,9 +117,13 @@ Multi-stage training scripts live in `training_scripts/`. They expect sign-langu
 
 Edit `settings.py` to point at your local dataset directories and label files. Runtime files such as `users.json`, `feedback.json`, and `uploads/` are created automatically and are ignored by Git.
 
-## License
 
-This project is provided for educational and personal use. See repository license terms if applicable.
+
+https://github.com/user-attachments/assets/cd827c47-c848-40e3-ab23-de7f59efdfd7
+
+
+
+
 
 ## Author
 
